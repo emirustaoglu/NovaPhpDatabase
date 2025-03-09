@@ -1,0 +1,26 @@
+{
+  "name": "novaphp/database",
+  "type": "library",
+  "homepage": "https://github.com/emirustaoglu",
+  "description": "NovaPhp Database Manager",
+  "version": "1.0.0",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "NovaPhp\\Database\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Yusuf Emir USTAOĞLU",
+      "email": "emiru893@gmail.com",
+      "homepage": "https://github.com/emirustaoglu"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "php": ">=8.3.0",
+    "ext-pdo": "*",
+    "novaphp/config": "^1.0.0"
+  }
+}
